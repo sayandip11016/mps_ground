@@ -1,0 +1,12 @@
+10		! Nx
+100		! nsteps
+1.02d0		! Bx
+1.d0		! Jzz (ferro: Jzz > 0)
+1.d0		! tau
+40		! Dmax (>= 2*Dcap)
+20		! Dcap
+1.d-9		! eps
+t		! trmode (f=full, t=truncate)
+o		! bcond (p=periodic, o=open)
+1.d0 1.d0	! ampl_0, ampl_1
+.true.		! screen_count
